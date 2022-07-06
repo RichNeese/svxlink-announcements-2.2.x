@@ -18,10 +18,10 @@ proc meeting_announcement {} {
 source "/home/orp/svxlink/meeting_announcement.tcl";
 }
 
-Logic::addMinuteTickSubscriber meeting_announcement;
-proc meeting_announcement {} {
-#puts "Output id announcement?";
-source "/home/orp/svxlink/bbq_announcement.tcl";
-}
+#Logic::addMinuteTickSubscriber meeting_announcement;
+#proc meeting_announcement {} {
+##puts "Output id announcement?";
+#source "/home/orp/svxlink/bbq_announcement.tcl";
+#}
 
 }
